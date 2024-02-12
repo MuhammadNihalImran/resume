@@ -1,0 +1,64 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html , body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.main{
+  margin-top: 400px;
+  height: 125vh;
+  width: 60vw;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+}
+.left{
+  width: 20vw;
+  height: 100%;
+  background-color: #F8F8F8;
+   
+}
+.left .Intro{
+  color: white;
+  width: 100%;
+  height: 50vh;
+  flex-direction: column;
+  background-color: #333333;
+  padding: 20px;
+  line-height: 15px;
+  font-family: serif;
+  font-weight: 900;
+}
+.left .Intro h4{
+  margin: 20px 0;
+  color: #EFEFF0;
+}
+.left .Intro p{
+  display: flex;
+  gap: 1rem;
+}
+.left .edu{
+  padding: 20px;
+}
+
+.left .skill{
+  padding: 20px;
+}
+
+  .right{
+    padding: 40px;
+    line-height: 30px;
+  }
+ 
